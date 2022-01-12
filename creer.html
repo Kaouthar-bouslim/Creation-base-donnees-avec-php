@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .all{
+                background : linear-gradient(rgb(215, 218, 245) , rgb(112, 101, 212));
+                border:1px solid rgb(105, 2, 2);
+                margin-top: 5%;
+                margin-right: 35%;
+                margin-left : 35%;
+                margin-bottom: 10%;
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <h1 align = center> INFOS </h1>
+     <div class="all"> 
+        
+       <center>
+        <form action="creer.php" method="post">
+        
+            <br>
+                <strong> serveur base de données:  </strong><br>
+                <input type="text" name="bd">
+    
+            <hr>
+                <strong>Tableau de la base de donées: </strong> <br>
+                <input type="text" name="table"  >
+            <hr>
+
+                     <strong>   compte :</strong> <br>
+                 <input type="text" name="compte">
+            <hr>
+    
+            
+                <strong>  mot de passe:</strong> <br>
+                 <input type="password " name="mdp">
+            <hr>
+            <strong>  saisir la requéte: </strong> 
+            <br>
+            <div class="requet"> <input type="text" name="rqt"  ></div>
+            <br> 
+            <br>
+            <input type="submit"  value="Connexion">
+        </form>
+        </center>
+    </div>
+    </body>
+</html>
